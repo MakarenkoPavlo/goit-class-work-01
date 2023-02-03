@@ -1,16 +1,219 @@
-body {
-
+:root {
+    --color-primary: #555555;
+    --color-primary-dark: #303030;
+    --color-primary-white: #FFFFFF;
+    --color-secondary: #9DA4BD;
+    --color-secondary-transparent: rgba(157, 164, 189, 0.6);
+    --color-brand: #FF6C00;
+    --background-color-primary: #FFFFFF;
+    --background-color-secondary: #F7F7F7;
 }
 
+body {
+    color: var(--color-primary);
+    background-color: var(--background-color-primary);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.86;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+.link {
+    text-decoration: none;}
+.list {
+    list-style: none;
+}
+
+
+/* Шапка сайта */
 .header-link {
-    color: #ffffff;
+    color: var(--color-primary-white);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #ff6c00;
+    color: var(--color-brand);
 }
 
 .button-light {
-    
+    color: var(--color-primary-white);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid var(--color-brand);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button-light:hover,
+.button-light:focus {
+    background-color: var(--color-brand);
+}
+
+/* Секция герой */
+
+.hero-link {
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
+}
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--color-brand);
+}
+.hero-tegline {
+    color: var(--color-secondary-transparent);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    text-transform: uppercase;
+}
+.hero-title {
+    color: var(--color-primary-white);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+}
+.hero-text {
+    color: var(--color-secondary);
+    font-size: 18px;
+    line-height: 1.67;
+}
+.hero-button {
+    color: var(--color-primary-white);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    text-align: right;
+    letter-spacing: 0.1em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.hero-button[disabled] {
+    color: var(--color-secondary-transparent);
+    cursor: not-allowed;
+}
+
+/* Секция о нас */
+
+.about-title {
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.about-text-title {
+    color: var(--color-primary-dark);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.about-text-coment {
+    font-size: 18px;
+    line-height: 1.67;
+}
+.button-dark {
+    color: var(--color-primary-dark);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid var(--color-brand);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button-dark:hover,
+.button-dark:focus {
+    color: var(--color-primary-white);
+    background-color: var(--color-brand);
+}
+
+/* Секция услуги и цены */
+
+.price-text {
+    color: var(--color-secondary-transparent);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.price-title {
+    color: var(--color-primary-white);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.servie-title {
+    color: var(--color-secondary);
+    font-size: 18px;
+    line-height: 1.67;
+}
+.service-price {
+    color: var(--color-secondary);
+    font-size: 18px;
+    line-height: 1.67;
+    text-align: right;
+}
+
+/* Секция преимущества */
+
+.advantages-quantity {
+    color: var(--color-primary-dark);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.advantages-quantity-text {
+    color: var(--color-primary-dark);
+    background-color: var(--background-color-secondary);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    text-align: center;
+}
+.advantages-tegline {
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.advantages-title {
+    color: var(--color-primary-dark);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.advantages-content {
+    font-size: 18px;
+    line-height: 1.67;
 }
