@@ -14,8 +14,6 @@ body {
     background-color: var(--background-color-primary);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    line-height: 1.86;
-    font-weight: 400;
     letter-spacing: 0.02em;
 }
 .link {
@@ -80,7 +78,6 @@ body {
 .hero-title {
     color: var(--color-primary-white);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 72px;
     line-height: 1.18;
     letter-spacing: 0.05em;
@@ -162,7 +159,6 @@ body {
 .price-title {
     color: var(--color-primary-white);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
@@ -208,7 +204,6 @@ body {
 .advantages-title {
     color: var(--color-primary-dark);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
@@ -216,4 +211,123 @@ body {
 .advantages-content {
     font-size: 18px;
     line-height: 1.67;
+}
+
+/* Секция Наши Мастера */
+
+.section-master {
+    background-color: var(--background-color-secondary);
+}
+.master-tegline {
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.master-title {
+    color: var(--color-primary-dark);
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.master-name-title {
+    color: var(--color-primary-dark);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+}
+.master-profession {
+    color: var(--color-brand);
+    line-height: 1.36;    
+    text-align: center;
+}
+
+/* Секция Портфолио */
+
+.portfolio-title {
+
+}
+.portfolio-text {
+    color: var(--color-primary-dark);
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 1.37;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+}
+
+/* Секция контакты */
+
+.contact-tegline-online {
+    color: var(--color-primary-white);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.button-light-online {
+    color: var(--color-primary-white);
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid var(--color-brand);
+    border-radius: 25px;
+    cursor: pointer;
+}
+    
+.button-light-online:hover,
+.button-light-online:focus {
+    background-color: var(--color-brand);
+}
+
+.contact-title {
+    color: var(--color-primary-white);
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.contact-link {
+    color: var(--color-secondary);
+    font-size: 18px;
+    line-height: 1.67;
+}
+.contact-schedule-title {
+    color: var(--color-primary-white);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.contact-schedule-text {
+    color: var(--color-secondary);
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+/* Футер */
+
+.footer-text {
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
+}
+.footer-link {
+    color: var(--color-primary-dark);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
 }
