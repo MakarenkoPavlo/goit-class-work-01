@@ -46,7 +46,6 @@ background-color: black;}
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .header-nav {
     display: flex;
