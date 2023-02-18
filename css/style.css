@@ -42,7 +42,7 @@ img {
 }
 /* Шапка сайта */
 .header {
-background-color: black;}
+}
 .header-content {
     display: flex;
     align-items: center;
@@ -100,7 +100,6 @@ background-color: black;}
 .hero {
     padding-top: 184px;
     padding-bottom: 192px;
-    background-color: black;
 }
 .hero-list {
     display: flex;
@@ -232,7 +231,6 @@ background-color: black;}
 
 /* Секция услуги и цены */
 .section-price-service {
-    background-color: black;
     padding-top: 130px;
     padding-bottom: 130px;
 }
@@ -285,6 +283,30 @@ background-color: black;}
 }
 /* Секция преимущества */
 
+.section-advantages {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.advantages-conteiner {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.advantages-list-conteiner {
+    display: flex;
+    align-items: center;
+    padding: 121px 0 130px 100px;
+}
+.advantages-item-conteiner {
+    display: flex;
+        align-items: center;
+}
+.advantages-content-conteiner {
+    
+}
+.advantages-item {
+    padding: 30px 30px;
+}
 .advantages-quantity {
     color: var(--color-primary-dark);
     font-weight: 700;
@@ -308,6 +330,8 @@ background-color: black;}
     line-height: 1.37;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    margin-bottom: 20px;
+    max-width: 500px;
 }
 .advantages-title {
     color: var(--color-primary-dark);
@@ -315,10 +339,13 @@ background-color: black;}
     font-size: 42px;
     line-height: 1.17;
     letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    max-width: 420px;
 }
 .advantages-content {
     font-size: 18px;
     line-height: 1.67;
+    max-width: 500px;
 }
 
 /* Секция Наши Мастера */
