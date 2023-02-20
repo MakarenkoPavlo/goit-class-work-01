@@ -292,20 +292,22 @@ img {
     align-items: center;
     gap: 130px;
 }
-.advantages-list-conteiner {
-    display: flex;
-    align-items: center;
-    padding: 121px 0 130px 100px;
+.advantages-list {
+    width: 525px;
 }
 .advantages-item-conteiner {
     display: flex;
-        align-items: center;
-}
-.advantages-content-conteiner {
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 121px 0 130px 155px;
     
 }
 .advantages-item {
-    padding: 30px 30px;
+    background-color: var(--background-color-secondary);
+    padding: 20px 24px;
+    width: 170px;
+    height: 133px;
 }
 .advantages-quantity {
     color: var(--color-primary-dark);
@@ -314,10 +316,10 @@ img {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.05em;
+    margin-bottom: 6px;
 }
 .advantages-quantity-text {
     color: var(--color-primary-dark);
-    background-color: var(--background-color-secondary);
     font-weight: 600;
     font-size: 11px;
     line-height: 1.37;
